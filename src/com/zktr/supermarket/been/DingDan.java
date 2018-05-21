@@ -17,6 +17,7 @@ public class DingDan{
 		super();
 	}
 
+	
 	public DingDan(String saleName, String saleCode, double saleSpzj, double saleSsje, double saleZl,
 			String saleHytel) {
 		super();
@@ -27,7 +28,21 @@ public class DingDan{
 		this.saleZl = saleZl;
 		this.saleHytel = saleHytel;
 	}
-	
+
+
+	public DingDan(int id, String saleName, String saleCode, double saleSpzj, double saleSsje, double saleZl,
+			String saleHytel) {
+		super();
+		this.id = id;
+		this.saleName = saleName;
+		this.saleCode = saleCode;
+		this.saleSpzj = saleSpzj;
+		this.saleSsje = saleSsje;
+		this.saleZl = saleZl;
+		this.saleHytel = saleHytel;
+	}
+
+
 	/**
 	 * 属性的getter和setter方法
 	 */
