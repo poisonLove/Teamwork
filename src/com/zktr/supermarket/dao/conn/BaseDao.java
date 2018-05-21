@@ -18,9 +18,6 @@ public class BaseDao {
 		private String pwd = rb.getString("jdbc.password");
 		private String Driver=rb.getString("jdbc.driver");
 		
-		//不允许构建这个类的实列
-		private BaseDao() {}
-		
 		/**
 		 * 1.获取连接对象
 		 * 
