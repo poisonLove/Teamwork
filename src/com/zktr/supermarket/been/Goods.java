@@ -1,4 +1,5 @@
 package com.zktr.supermarket.been;
+
 import java.util.Date;
 /**
  * 商品类
@@ -102,6 +103,5 @@ public class Goods {
 	public void setGrktime(Date grktime) {
 		this.grktime = grktime;
 	}
-	
 	
 }
