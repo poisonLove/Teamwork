@@ -1,7 +1,7 @@
 package com.zktr.supermarket.been;
 /**
  * 订单的javaBeen类
- * @author 黄盼
+ * @author hp
  *
  */
 public class DingDan{

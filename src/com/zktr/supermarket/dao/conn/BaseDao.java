@@ -9,15 +9,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import com.zktr.supermarket.been.DingDan;
+
 public class BaseDao {
 	//先加在数据库连接所需要的文件
-	private static ResourceBundle rb=ResourceBundle.getBundle("supermarket-config");
+	private static ResourceBundle rb=ResourceBundle.getBundle("com.zktr.supermarket.dao.conn.supermarket-config");
 	//数据库连接信息
 		private String url = rb.getString("jdbc.url");
 		private String uname =rb.getString("jdbc.username");
 		private String pwd = rb.getString("jdbc.password");
 		private String Driver=rb.getString("jdbc.driver");
-		
 		/**
 		 * 1.获取连接对象
 		 * 
