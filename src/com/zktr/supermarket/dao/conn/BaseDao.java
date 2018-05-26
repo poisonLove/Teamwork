@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
 
 public class BaseDao {
 	//先加在数据库连接所需要的文件
-	private static ResourceBundle rb=ResourceBundle.getBundle("supermarket-config");
+	private static ResourceBundle rb=ResourceBundle.getBundle("com.zktr.supermarket.dao.conn.supermarket-config");
 	//数据库连接信息
 		private String url = rb.getString("jdbc.url");
 		private String uname =rb.getString("jdbc.username");
